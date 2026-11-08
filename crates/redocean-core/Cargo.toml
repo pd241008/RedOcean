@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Prathmesh Desai <prathmeshpdesai@gmail.com>", "Avinash Sastry <avinashmarch3@gmail.com>", "Himadri Nirjhar Mandal <himadrim@srmist.edu.in>"]
 description = "Deterministic SIMD-ready decibel optical channel physics and LO-AKA cryptographic handshake engine for IoUT"
-license = "Apache-2.0"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }

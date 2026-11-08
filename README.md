@@ -2,7 +2,7 @@
 
 ### High-Performance Channel-Aware Simulation and Formal Verification Engine for Underwater Optical Wireless Networks
 
-`[Status: Building]` 🟡 `[Architecture: Multi-Binary Monorepo]` ⚙️ `[Primitive: ASCON-128a]` 🔐 `[Verification: Lean 4 Mechanized]` 📐
+`[Status: Building]` 🟡 `[Architecture: Multi-Binary Monorepo]` ⚙️ `[Primitive: ASCON-128a]` 🔐 `[Verification: Lean 4 Mechanized]` 📐 `[License: MIT]` 📜
 
 ---
 
@@ -112,3 +112,9 @@ Key architectural decisions are documented in [`docs/adrs/`](./docs/adrs/):
 - **[ADR-003](./docs/adrs/0003-channel-loss-in-decibels.md):** Closed-Form Optical Channel Loss Formulations in Decibels
 - **[ADR-004](./docs/adrs/0004-lightweight-ascon-sponge.md):** Adopting NIST ASCON-128a Sponge Primitive for LO-AKA
 - **[ADR-005](./docs/adrs/0005-mechanized-trace-correctness.md):** On-The-Fly Mechanized Trace Correctness with Lean 4
+
+---
+
+## 📄 License
+
+This project is licensed under the terms of the [MIT License](./LICENSE).
