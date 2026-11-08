@@ -1,0 +1,24 @@
+{
+  "manifest_id": "MANIFEST-TABLE4-ENERGY",
+  "generated_at": "2026-11-08T11:00:00Z",
+  "platforms": {
+    "ARM_Cortex_M4": {
+      "clock_mhz": 48.0,
+      "active_power_mw": 15.84,
+      "lo_aka_crypto_energy_uj": 4.21,
+      "dtls_ecdhe_crypto_energy_uj": 2180.0,
+      "energy_reduction_pct": 99.8,
+      "lo_aka_tx_energy_uj": 6.40,
+      "dtls_tx_energy_uj": 130.4,
+      "tx_footprint_reduction_pct": 95.1
+    },
+    "TI_MSP430F5529": {
+      "clock_mhz": 25.0,
+      "active_power_mw": 8.75,
+      "lo_aka_crypto_energy_uj": 12.8,
+      "dtls_ecdhe_crypto_energy_uj": 6420.0,
+      "energy_reduction_pct": 99.8
+    }
+  }
+}
+

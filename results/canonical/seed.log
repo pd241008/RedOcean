@@ -1,0 +1,12 @@
+# RedOcean Deterministic RNG Seed Log
+# Honesty-First Reproducibility Policy (ChaosSeal Discipline)
+# Every simulation run must pre-register and record its seed.
+
+TIMESTAMP=2026-11-08T11:00:00Z
+GLOBAL_SEED=42
+SIMULATION_RUNS=100000
+HASH_ALGORITHM=SHA256
+PROTOC_VERSION=libprotoc 25.1
+RUSTC_VERSION=rustc 1.85.0
+LEAN_VERSION=Lean 4.35.0
+

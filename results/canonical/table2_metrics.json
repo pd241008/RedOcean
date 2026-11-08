@@ -1,0 +1,78 @@
+{
+  "manifest_id": "MANIFEST-TABLE2-UOWC",
+  "generated_at": "2026-11-08T11:00:00Z",
+  "seed": 42,
+  "canonical_metrics": [
+    {
+      "water_type": "Clear Ocean",
+      "distance_m": 10.0,
+      "extinction_db": 6.56,
+      "geometric_db": 30.94,
+      "total_pl_db": 37.50,
+      "snr_elec_db": 28.4,
+      "per_lo_aka": 1.0e-6,
+      "per_dtls": 1.0e-4
+    },
+    {
+      "water_type": "Clear Ocean",
+      "distance_m": 20.0,
+      "extinction_db": 13.12,
+      "geometric_db": 36.96,
+      "total_pl_db": 50.08,
+      "snr_elec_db": 18.1,
+      "per_lo_aka": 1.2e-4,
+      "per_dtls": 3.9e-3
+    },
+    {
+      "water_type": "Clear Ocean",
+      "distance_m": 30.0,
+      "extinction_db": 19.67,
+      "geometric_db": 40.48,
+      "total_pl_db": 60.15,
+      "snr_elec_db": 8.9,
+      "per_lo_aka": 0.082,
+      "per_dtls": 0.945
+    },
+    {
+      "water_type": "Coastal Ocean",
+      "distance_m": 6.0,
+      "extinction_db": 10.37,
+      "geometric_db": 26.52,
+      "total_pl_db": 36.89,
+      "snr_elec_db": 29.2,
+      "per_lo_aka": 1.0e-6,
+      "per_dtls": 1.0e-4
+    },
+    {
+      "water_type": "Coastal Ocean",
+      "distance_m": 10.0,
+      "extinction_db": 17.29,
+      "geometric_db": 30.94,
+      "total_pl_db": 48.23,
+      "snr_elec_db": 20.0,
+      "per_lo_aka": 4.1e-5,
+      "per_dtls": 1.4e-3
+    },
+    {
+      "water_type": "Coastal Ocean",
+      "distance_m": 14.0,
+      "extinction_db": 24.20,
+      "geometric_db": 33.86,
+      "total_pl_db": 58.06,
+      "snr_elec_db": 10.8,
+      "per_lo_aka": 0.048,
+      "per_dtls": 0.812
+    },
+    {
+      "water_type": "Coastal Ocean",
+      "distance_m": 16.0,
+      "extinction_db": 27.66,
+      "geometric_db": 35.04,
+      "total_pl_db": 62.70,
+      "snr_elec_db": 6.2,
+      "per_lo_aka": 0.463,
+      "per_dtls": 0.999
+    }
+  ]
+}
+
