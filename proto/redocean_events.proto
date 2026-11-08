@@ -1,0 +1,57 @@
+syntax = "proto3";
+
+package uowc.sim;
+
+enum WaterType {
+  PURE_SEA = 0;
+  CLEAR_OCEAN = 1;
+  COASTAL_OCEAN = 2;
+  TURBID_HARBOR = 3;
+}
+
+message SimulationConfig {
+  uint64 random_seed = 1;
+  WaterType water_type = 2;
+  double distance_m = 3;
+  double tx_power_w = 4;
+  double beam_divergence_deg = 5;
+  double aperture_diameter_m = 6;
+  double pointing_jitter_sigma = 7;
+  double scintillation_index = 8;
+  uint32 total_handshakes = 9;
+}
+
+message OpticalTelemetry {
+  double sim_time_sec = 1;
+  uint32 sender_id = 2;
+  uint32 receiver_id = 3;
+  double distance_m = 4;
+  double ext_loss_db = 5;
+  double geom_loss_db = 6;
+  double point_loss_db = 7;
+  double turb_fade_db = 8;
+  double total_loss_db = 9;
+  double snr_elec_db = 10;
+  double ber = 11;
+  bool is_delivered = 12;
+}
+
+message HandshakeTrace {
+  uint64 session_id = 1;
+  uint64 sensor_pid = 2;
+  uint64 sensor_nonce = 3;
+  uint64 gateway_nonce = 4;
+  uint32 epoch_timestamp = 5;
+  bytes key_digest = 6;
+  double auth_time_us = 7;
+  double energy_uj = 8;
+  bool is_verified = 9;
+}
+
+message TelemetryBatch {
+  uint64 batch_id = 1;
+  double timestamp_utc = 2;
+  repeated OpticalTelemetry optical_events = 3;
+  repeated HandshakeTrace handshake_traces = 4;
+}
+
