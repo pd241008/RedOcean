@@ -1,1 +1,40 @@
-artifact/
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Rust & Cargo
+crates/**/target/
+Cargo.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+py-redocean/*_pb2.py
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Lean 4
+lean-correctness/.lake/
+
+# LaTeX Intermediate Build Artifacts
+artifact/*
+
+
+# Ephemeral Simulation Outputs
+results/*.fresh.*
+results/fresh_run.log
+
+# Operating System
+.DS_Store
+Thumbs.db
